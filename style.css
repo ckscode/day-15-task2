@@ -1,0 +1,17 @@
+body {
+  padding: 1% 3%;
+}
+table {
+  width: 50%;
+}
+form{
+    width:100%;
+}
+tr td,tr th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  width: 20%;
+}
