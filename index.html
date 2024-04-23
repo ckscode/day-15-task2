@@ -16,11 +16,11 @@
     <h1 id="title">Survey Form</h1>
     <p  id="description">Survey form for knowing favourite foods</p>
 
-    <form id="survey-form" class="form-class" >
+    <form id="survey-form" class="survey-form">
       <legend>Favourite food</legend>
       <div class="form-row row">
         <div class="form-group col-md-3 col-lg-2">
-          <label for="first-name">First name</label>
+          <label id="name-label" for="first-name">First name</label>
           <input
             type="text"
             name="firstname"
@@ -35,12 +35,35 @@
           <input
             type="text"
             name="lastname"
-            class="form-control"
             id="last-name"
+            class="form-control"
             placeholder="Last name"
+            required
           />
         </div>
       </div>
+      <div class="form-group col-md-3 col-lg-2">
+        <label id="email-label" for="last-name">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="email@gmail.com"
+          required
+        />
+        </div>
+        <div class="form-group col-md-3 col-lg-2">
+          <label for="last-name">Contact</label>
+          <input
+            type="number"
+            name="contact"
+            id="contact"
+            class="form-control"
+            placeholder=""
+            required
+          />
+        </div>
       <div class="form-group col-12 col-lg-6">
         <label for="form-address">Address</label>
         <input
@@ -228,6 +251,7 @@
     </table>
 
     <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
