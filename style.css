@@ -15,3 +15,9 @@ tr td,tr th {
 th {
   width: 20%;
 }
+
+@media screen and (max-width:1095px) and (min-width:995px){
+     th{
+      font-size:12px;
+     }
+}
